@@ -16,7 +16,7 @@
     export default {
         name: "Home",
         computed: {
-            ...mapGetters("path", ["getAlbum", "getAll"]),
+            ...mapGetters("path", ["getAll"])
         }
     }
 </script>
